@@ -1,0 +1,50 @@
+#producto-contenedor {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.modal-container {
+display: flex;
+align-items: center;
+justify-content: center;
+position: fixed;
+background-color: transparent;
+width: 100%;
+height: 100vh;
+visibility: hidden;
+transition: opacity 0.3s ease;
+border-radius: 10px ;
+z-index: 100;
+}
+
+.modal-active {
+opacity: 1;
+visibility: visible;
+z-index: 5;
+}
+
+.modal-carrito{
+width: 30rem;
+height: 10rem;
+background-color: rgba(80, 66, 66, 0);
+}
+
+.productoEnCarrito {
+border: 5px solid;
+margin: 5px 0;
+padding: 5px 10px;
+display: flex;
+justify-content: space-between;
+}
+
+.boton {
+  border: solid 1px black;
+}
+
+.card {
+  border: 3px solid black;
+  background-color: aquamarine;
+  width: 300px;
+}
