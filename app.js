@@ -13,9 +13,6 @@ const mostrarProductos = (producto) => {
         boton.addEventListener('click', ()=>{
             carrito(producto.id)
         } )
-
     })
-
 }
-
-mostrarProductos(productos)
+mostrarProductos(productos);
